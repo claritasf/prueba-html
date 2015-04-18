@@ -9,13 +9,14 @@ body {
 h1 {
 	font-weight: bold;
 	color: #F9690E;
-	border: 6px solid #A2DED0;
 	margin: 0 0 0 0;
+	text-align: center;
 }
 h2 {
 	font-weight: bold;
-	color: #446CB3;
+	color: #FFFFFF;
 	padding: 5px 5px 0 30px; 
+	text-align: center;
 	}
 h3 {
 	margin: 15px 0 15px 0;
@@ -37,6 +38,7 @@ ul li {
 	}
 .nav {
 	padding-left: 0;
+	text-align: center;
 }
 .nav li {
 	display: inline;
@@ -57,4 +59,23 @@ ol li:first-child {
 	font-weight: bold;
 	font-size: 22px;
 	color: #1abc9c;
+}
+.header {
+	padding: 10px 10px 10px 10px;
+	background-color: #F2784B;
+}
+.header a {
+	color: #FFFFFF;
+} 
+.header a:hover {
+	color: gray;
+}
+.header h1 {
+	color: #FFFFFF;
+}
+.main-content {
+	width: 500px;
+	padding: 20px 20px 20px 20px;
+	border: 1px solid #dddddd;
+	margin: 30px auto 0 auto;
 }
