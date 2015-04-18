@@ -1,0 +1,60 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0; 
+	margin; 0;
+}
+body {
+	padding: 20px 20px 20px 20px;
+}
+h1 {
+	font-weight: bold;
+	color: #F9690E;
+	border: 6px solid #A2DED0;
+	margin: 0 0 0 0;
+}
+h2 {
+	font-weight: bold;
+	color: #446CB3;
+	padding: 5px 5px 0 30px; 
+	}
+h3 {
+	margin: 15px 0 15px 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+.noticias li {
+	font-size: 17px;
+	color: black;
+}
+.noticias h3 {
+	border-bottom: 0;
+}
+ul {
+	padding: 0 0 0 50px;
+}
+ul li {
+	font-size: 24px;
+	color: #27ae60;
+	}
+.nav {
+	padding-left: 0;
+}
+.nav li {
+	display: inline;
+	font-size: 15px;
+	color: blue;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: cyan; 
+}
+ol {
+	padding: 0 0 0 50px;
+}
+ol li:first-child {
+	font-weight: bold;
+	font-size: 22px;
+	color: #1abc9c;
+}
