@@ -5,6 +5,8 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
 }
 body {
 	padding: 20px 20px 20px 20px;
+	background: #c0b3af url(images/bg.png) top left repeat;
+
 }
 h1 {
 	font-weight: bold;
@@ -50,7 +52,7 @@ a {
 }
 a:hover {
 	text-decoration: underline;
-	color: cyan; 
+	color: brown; 
 }
 ol {
 	padding: 0 0 0 50px;
@@ -62,7 +64,7 @@ ol li:first-child {
 }
 .header {
 	padding: 10px 10px 10px 10px;
-	background-color: #F2784B;
+	background-color: #d35400;
 }
 .header a {
 	color: #FFFFFF;
@@ -73,9 +75,23 @@ ol li:first-child {
 .header h1 {
 	color: #FFFFFF;
 }
+.header img {
+	float: left;
+}
 .main-content {
 	width: 500px;
 	padding: 20px 20px 20px 20px;
 	border: 1px solid #dddddd;
 	margin: 30px auto 0 auto;
+	background-color: #FFFFFF
+}
+.catalogo-hombres img {
+	float: left;
+	padding-right: 20px;
+}
+.catalogo-hombres li {
+	list-style: none;
+	border: 1px solid #e67e22;
+	height: 200px;
+	margin-bottom: 10px;
 }
