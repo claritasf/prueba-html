@@ -95,3 +95,35 @@ ol li:first-child {
 	height: 200px;
 	margin-bottom: 10px;
 }
+label {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+input {
+	display: block;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+input[type=submit] {
+	width: 100px;
+	font-size: 20px;
+}
+input[type=text] {
+border: 2px solid brown;
+font-size: 20px;
+padding: 7px;
+width: 445px;
+}
+textarea {
+width: 445px;
+height: 300px;
+padding: 7px;
+border: 2px solid brown;
+margin-bottom: 25px;
+font-size: 20px;
+}
+input[type=checkbox], label[for=newsletter] {
+	display: inline;	
+}
